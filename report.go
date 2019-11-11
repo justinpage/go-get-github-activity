@@ -81,7 +81,6 @@ func GetMostActivityInSixMonths(org string) error {
 			}
 
 			total, _ = strconv.Atoi(lastURL.Query().Get("page"))
-
 		}
 	}
 
