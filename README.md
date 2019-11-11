@@ -18,13 +18,9 @@ You will need the latest stable version of go installed on your machine:
 
 https://golang.org/dl/
 
-Next, run the following command to grab any external dependencies:
+Run the following command to download and build for execution:
 
-`go get`
-
-Finally, run the following command to build the binary for execution:
-
-`go build report.go`
+`go get -u github.com/justinpage/go-get-github-activity`
 
 ### Execute 
 
@@ -37,7 +33,7 @@ export GITHUB_TOKEN=<github-personal-access-token>
 
 Run report against an organization:
 
-`./report <org-name>`
+`go-get-github-activity <org-name>`
 
 Report will provide a summary of repos ordered by commit number:
 
