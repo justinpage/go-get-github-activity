@@ -12,7 +12,7 @@ https://developer.github.com/v3/auth/#via-oauth-and-personal-access-tokens
 
 This means creating a personal access token for the command line.
 
-### Compile 
+### Compile
 
 You will need the latest stable version of go installed on your machine:
 
@@ -22,7 +22,7 @@ Run the following command to download and build for execution:
 
 `go get -u github.com/justinpage/go-get-github-activity`
 
-### Execute 
+### Execute
 
 Export the following environment variables:
 
@@ -52,7 +52,7 @@ git-scm.com: 42
 htmldocs: 32
 ```
 
-### About 
+### About
 
 The following script takes advantage of the following APIs:
 
